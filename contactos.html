@@ -47,7 +47,7 @@
     <div class="container">
         <!-- Example row of columns -->
         <div class="row">
-            <form>
+    <form>
                 <div class="mb-3">
                     <label for="exampleInputEmail1" class="form-label">Nombre completo</label>
                     <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -69,10 +69,21 @@
                       <option>Seleccion 3</option>
                     </select>
         </div>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Requiere cotizacion</option>
+            <option value="1">Si</option>
+            <option value="2">No</option>
+        </select>
+        <div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    ¿Esta de acuerdo con la contización?
+  </label>
+</div>
         <label for="exampleInputEmail1" class="form-label">Asunto</label><br/>
         <textarea class="form-control"></textarea><br/>
         <button type="submit" class="btn btn-primary">Enviar</button>
-        </form>
+    </form>
     </div>
 
     <hr>
